@@ -1,0 +1,39 @@
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .weather-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  .location {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+
+  .description {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .temperature,
+  .wind-speed {
+    font-size: 1.1em;
+  }
